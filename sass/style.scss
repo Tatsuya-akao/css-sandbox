@@ -1,3 +1,6 @@
-body {
-  // background-color: red;
-}
+@import 'generics/variables';
+@import 'generics/reset';
+@import 'generics/generics';
+@import 'components/wrap';
+@import 'components/header';
+@import 'components/item';

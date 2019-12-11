@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  padding: 2.8rem;
+  background-color: #464769;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  &__text-container {
+    text-align: center;
+    letter-spacing: 0.05em;
+  }
+
+  &__title {
+    font-family: $font-cherry;
+    font-size: 6rem;
+    color: $color-white;
+    letter-spacing: 0.1em;
+
+    margin-bottom: 0.8rem;
+  }
+
+  &__sub-text {
+    color: $color-white;
+    font-family: $font-nunito;
+    font-size: 1.6rem;
+  }
+}

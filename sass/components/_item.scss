@@ -1,0 +1,16 @@
+.select-items {
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    width: 60px;
+    height: 30px;
+    background-color: #f8f8f8;
+    align-items: center;
+    justify-content: center;
+  }
+}
