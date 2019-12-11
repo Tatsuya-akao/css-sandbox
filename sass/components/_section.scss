@@ -1,0 +1,18 @@
+.section {
+
+  &__title {
+    font-family: $font-cherry;
+    font-size: 3.2rem;
+    margin-bottom: 1em;
+
+    &-num {
+      color: lighten($color-main, 20%);
+    }
+  }
+
+  p {
+    font-family: $font-nunito;
+    font-size: 1.8rem;
+    margin-top: 1.5em;
+  }
+}
